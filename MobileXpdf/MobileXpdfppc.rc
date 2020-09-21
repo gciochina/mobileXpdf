@@ -1,0 +1,798 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\MobileXpdfppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_SLIDEBAR     BITMAP                  "res\\slidebar.bmp"
+IDR_MAINFRAME           BITMAP                  "res\\Cmdbar.bmp"
+IDR_TOOLBAR_VGA         BITMAP                  "res\\Cmdbar_vga.bmp"
+CLOSED                  BITMAP                  "res\\power_down.bmp"
+CLOSEU                  BITMAP                  "res\\power_up.bmp"
+CLOSEF                  BITMAP                  "res\\power_focused.bmp"
+CLOSEX                  BITMAP                  "res\\power_disabled.bmp"
+PREVD                   BITMAP                  "res\\prev_down.bmp"
+PREVF                   BITMAP                  "res\\prev_focused.bmp"
+PREVU                   BITMAP                  "res\\prev_up.bmp"
+PREVX                   BITMAP                  "res\\prev_disabled.bmp"
+NEXTF                   BITMAP                  "res\\next_focused.bmp"
+NEXTU                   BITMAP                  "res\\next_up.bmp"
+NEXTD                   BITMAP                  "res\\next_down.bmp"
+NEXTX                   BITMAP                  "res\\next_disabled.bmp"
+GOTOPAGED               BITMAP                  "res\\stop_down.bmp"
+GOTOPAGEF               BITMAP                  "res\\stop_focused.bmp"
+GOTOPAGEU               BITMAP                  "res\\stop_up.bmp"
+GOTOPAGEX               BITMAP                  "res\\stop_disabled.bmp"
+IDB_BITMAP_LABEL_FILENAME BITMAP                  "res\\label_bckgrnd.bmp"
+IDB_BITMAP_EDIT         BITMAP                  "res\\edit_bckgrnd.bmp"
+IDB_BITMAP_LABEL_PAGECOUNT BITMAP                  "res\\label2_bckgrnd.bmp"
+ABOUTD                  BITMAP                  "res\\info_down.bmp"
+ABOUTF                  BITMAP                  "res\\info_focused.bmp"
+ABOUTU                  BITMAP                  "res\\info_up.bmp"
+ABOUTX                  BITMAP                  "res\\info_disabled.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MobileXpdf.ico"
+IDI_FILE                ICON                    "res\\XpdfFile.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_PREV_PAGE
+    BUTTON      ID_NEXT_PAGE
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_DRAG_ZOOM
+END
+
+IDR_TEXTONLYMENU TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_PREV_PAGE
+    BUTTON      ID_NEXT_PAGE
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_DRAG_ZOOM
+END
+
+IDR_TOOLBAR_VGA TOOLBAR  32, 32
+BEGIN
+    BUTTON      ID_PREV_PAGE
+    BUTTON      ID_NEXT_PAGE
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_DRAG_ZOOM
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Doc"
+    BEGIN
+        MENUITEM "Open",                        ID_MENU_OPEN
+        POPUP "Recent Files"
+        BEGIN
+            MENUITEM "1",                           ID_RECENTFILES_1
+            MENUITEM "2",                           ID_RECENTFILES_2
+            MENUITEM "3",                           ID_RECENTFILES_3
+            MENUITEM "4",                           ID_RECENTFILES_4
+            MENUITEM "5",                           ID_RECENTFILES_5
+        END
+        POPUP "Bookmarks"
+        BEGIN
+            POPUP "Load"
+            BEGIN
+                MENUITEM "1",                           ID_BOOKMARK_LOAD_1
+                MENUITEM "2",                           ID_BOOKMARK_LOAD_2
+                MENUITEM "3",                           ID_BOOKMARK_LOAD_3
+                MENUITEM "4",                           ID_BOOKMARK_LOAD_4
+                MENUITEM "5",                           ID_BOOKMARK_LOAD_5
+            END
+            POPUP "Save"
+            BEGIN
+                MENUITEM "1",                           ID_BOOKMARK_SAVE_1
+                MENUITEM "2",                           ID_BOOKMARK_SAVE_2
+                MENUITEM "3",                           ID_BOOKMARK_SAVE_3
+                MENUITEM "4",                           ID_BOOKMARK_SAVE_4
+                MENUITEM "5",                           ID_BOOKMARK_SAVE_5
+            END
+        END
+        POPUP "Find"
+        BEGIN
+            MENUITEM "Find...",                     ID_TOOLS_FIND
+            MENUITEM "Find Next",                   ID_TOOLS_FIND_NEXT
+            MENUITEM "Find Prior",                  ID_TOOLS_FIND_PRIOR
+            MENUITEM "Show/Hide Marks",             ID_TOOLS_FIND_CLEARMARKS
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "About...",                    ID_APP_ABOUT
+        MENUITEM "Options...",                  ID_FILE_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "Quit",                        ID_MENU_QUIT
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Goto Page...",                ID_TOOLS_GOTOPAGE
+        POPUP "Navigation"
+        BEGIN
+            MENUITEM "Next Page",                   ID_NEXT_PAGE
+            MENUITEM "Previous Page",               ID_PREV_PAGE
+            MENUITEM "Next Screen",                 ID_NEXT_SCREEN
+            MENUITEM "Prior Screen",                ID_PRIOR_SCREEN
+        END
+        POPUP "Rotation"
+        BEGIN
+            MENUITEM "0°",                          ID_ROTATION_0
+            MENUITEM "90° CW",                      ID_ROTATE_90
+            MENUITEM "90° CCW",                     ID_ROTATE_91
+            MENUITEM "180°",                        ID_ROTATE_180
+        END
+        POPUP "Zoom"
+        BEGIN
+            MENUITEM "Zoom In",                     ID_ZOOM_IN
+            MENUITEM "Zoom Out",                    ID_ZOOM_OUT
+            MENUITEM "Fit Screen Width",            ID_TOOLS_FITSCREENWIDTH
+            MENUITEM "Fit Screen Height",           ID_TOOLS_FITSCREENHEIGHT
+            MENUITEM "Set Image Size...",           ID_TOOLS_IMAGE_INFO
+        END
+        MENUITEM "View Text Only",              ID_TOOLS_VIEWTEXTONLY
+        MENUITEM SEPARATOR
+        POPUP "Fontsize"
+        BEGIN
+            MENUITEM "11",                          ID_FONTSIZE_7
+            MENUITEM "12",                          ID_FONTSIZE_8
+            MENUITEM "13",                          ID_FONTSIZE_9
+            MENUITEM "14",                          ID_FONTSIZE_10
+            MENUITEM "15",                          ID_FONTSIZE_11
+            MENUITEM "16",                          ID_FONTSIZE_12
+            MENUITEM "Double Size (VGA)",           ID_FONTSIZE_DOUBLESIZE
+        END
+    END
+    POPUP " "
+    BEGIN
+        POPUP "Column Browse"
+        BEGIN
+            MENUITEM "&1 column",                   ID_COLUMNBROWSE_1COLUMN
+            MENUITEM "&2 column",                   ID_COLUMNBROWSE_2COLUMN
+        END
+    END
+END
+
+IDR_POPUP MENU 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Zoom In",                     ID_ZOOM_IN
+        MENUITEM "Zoom Out",                    ID_ZOOM_OUT
+        MENUITEM "Fit Screen Width",            ID_TOOLS_FITSCREENWIDTH
+        MENUITEM "Fit Screen Height",           ID_TOOLS_FITSCREENHEIGHT
+    END
+END
+
+IDR_TEXTONLYMENU MENU 
+BEGIN
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Goto Page...",                ID_TOOLS_GOTOPAGE
+        MENUITEM "Next Page",                   ID_NEXT_PAGE
+        MENUITEM "Previous Page",               ID_PREV_PAGE
+        POPUP "Fontsize"
+        BEGIN
+            MENUITEM "11",                          ID_FONTSIZE_7
+            MENUITEM "12",                          ID_FONTSIZE_8
+            MENUITEM "13",                          ID_FONTSIZE_9
+            MENUITEM "14",                          ID_FONTSIZE_10
+            MENUITEM "15",                          ID_FONTSIZE_11
+            MENUITEM "16",                          ID_FONTSIZE_12
+            MENUITEM "Double Size (VGA)",           ID_FONTSIZE_DOUBLESIZE
+        END
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Page View",                   ID_VIEW_PAGEVIEW
+    END
+END
+
+IDR_TEXTONLYCONTEXT MENU 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Copy",                        ID_POPUP_COPY
+    END
+END
+
+IDR_CANCEL MENU 
+BEGIN
+    MENUITEM "Cancel",                      IDCANCEL
+    MENUITEM "Ok",                          IDOK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 118, 130
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About MobileXpdf"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC_LOGO,15,12,20,20,SS_REALSIZEIMAGE
+    CTEXT           "MobileXPdf v0.6.0.0",IDC_STATIC_2,66,13,35,18,SS_NOPREFIX
+    CTEXT           "http://sourceforge.net/ projects/mobilexpdf/",IDC_STATIC_5,1,35,113,17
+    CTEXT           "(C) 2005-2006",IDC_STATIC_4,7,56,48,8
+    CTEXT           "by gCiochina",IDC_STATIC_6,56,56,44,12
+    LTEXT           "MobileXpdf is based on Xpdf and licensed under the GPL. Source code is available.",IDC_STATIC,7,86,104,34
+    CTEXT           "(C) 2006-2007",IDC_STATIC_7,7,65,48,8
+    CTEXT           "(C) 2007-2008",IDC_STATIC_8,7,74,48,8
+END
+
+IDD_CONFIG DIALOG  0, 0, 150, 164
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "Associate PDF-Files with MobileXpdf",IDC_FILEASSOC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,10,131,10
+    CONTROL         "Always Hide Scrollbars",IDC_HIDESCROLLBARS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,20,87,10
+    CONTROL         "Antialiasing (needs file reload)",IDC_ANTIALIASING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,31,120,10
+    CONTROL         "Remember Last Document Zoom",IDC_REMEMBER_ZOOM,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,7,40,119,10
+    EDITTEXT        IDC_ZOOM,67,51,42,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,109,50,11,14
+    LTEXT           "Default Zoom %",IDC_STATIC_ZOOM,7,52,58,8
+    PUSHBUTTON      "Cancel",IDCANCEL,7,88,50,14
+    DEFPUSHBUTTON   "OK",IDOK,85,88,50,14
+    COMBOBOX        IDC_MAPFUNCTION,65,128,73,60,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use HW Buttons (needs restart)",IDC_MAPHWBUTTONS,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,7,109,117,9
+    COMBOBOX        IDC_MAPBUTTONS,7,128,58,60,CBS_DROPDOWNLIST | NOT WS_VISIBLE | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Map this button...",IDC_STATIC,7,118,60,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "to this function...",IDC_STATIC,71,118,60,8,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Select Button",IDC_SELECTBUTTON,7,143,57,14,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Zoom value will be applied when opening a new file",IDC_STATIC_ZOOM_INFO,7,65,128,18
+END
+
+IDD_GOTO DIALOG  0, 0, 126, 131
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_BORDER
+FONT 10, "Microsoft Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Go To Page",IDOK,0,108,125,23
+    LISTBOX         IDC_LIST1,0,0,125,107,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_WAITDIALOG DIALOG  0, 0, 75, 41
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CTEXT           "Rendering page...",IDC_WAITMESSAGE,7,7,61,27,SS_CENTERIMAGE
+END
+
+IDD_PASSWORD DIALOG  0, 0, 150, 68
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 12, "Arial Unicode MS"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,79,47,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,19,47,50,14
+    EDITTEXT        IDC_OWNERPW,33,24,83,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Enter Password",IDC_STATIC,47,11,56,9
+END
+
+IDD_TEXTONLYDIALOG DIALOG  0, 0, 158, 138
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TextView"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_EDIT_TEXT_VIEW,0,0,157,137,ES_MULTILINE | ES_READONLY | NOT WS_BORDER
+    DEFPUSHBUTTON   "OK",IDOK,152,132,6,6
+END
+
+IDD_FINDTEXT DIALOG  0, 0, 135, 74
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_TEXT,7,7,121,13,ES_AUTOHSCROLL
+    CONTROL         "Case Sensitive",IDC_CASE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,22,63,10
+    CONTROL         "Forward",IDC_FORWARD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,74,22,43,10
+    CONTROL         "Whole Doc",IDC_BEGIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,74,32,51,10
+    CONTROL         "Mark All",IDC_MARK_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,32,42,10
+    PUSHBUTTON      "Find",IDOK,78,53,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,53,50,14
+    CONTROL         "",-1,"SIPPREF",NOT WS_VISIBLE,-10,-10,6,6
+END
+
+IDD_IMAGE_PROPS DIALOG  0, 0, 159, 86
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Image Properties"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,53,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,78,53,50,14
+    LTEXT           "Size:",IDC_STATIC,7,7,18,8
+    LTEXT           "DPI",IDC_STATIC,7,27,12,8
+    EDITTEXT        IDC_IMAGE_SIZE,31,7,61,14,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_RENDER_DPI,30,27,61,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"SIPPREF",NOT WS_VISIBLE,-10,-10,6,6
+END
+
+IDD_OUTLINE DIALOG  0, 0, 155, 157
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Outline"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_OUTLINE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,0,0,155,156
+END
+
+IDD_MISCPAGE DIALOG  0, 0, 150, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Misc"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,46,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,46,50,14
+    CONTROL         "Antialiasing (needs file reload)",IDC_ANTIALIASING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,28,136,10
+    CONTROL         "Associate PDF-Files with MobileXpdf",IDC_FILEASSOC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,10,131,10
+    CONTROL         "Always Hide Scrollbars",IDC_HIDESCROLLBARS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,19,87,10
+END
+
+IDD_BUTTONMAPPINGPAGE DIALOG  0, 0, 150, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Button Mapping"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,69,46,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,7,46,50,14
+    COMBOBOX        IDC_MAPFUNCTION,70,96,73,60,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use Hardware Buttons (needs restart)",IDC_MAPHWBUTTONS,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,7,66,136,10
+    COMBOBOX        IDC_MAPBUTTONS,7,96,58,60,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Map this button...",IDC_STATIC,7,86,60,8
+    LTEXT           "to this function...",IDC_STATIC,71,86,60,8
+END
+
+IDD_FILE_OPEN DIALOG  0, 0, 92, 93
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Open File"
+FONT 8, "Microsoft Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,0,0,92,92,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,0,86,6,6
+    PUSHBUTTON      "",IDOK,86,86,6,6,NOT WS_TABSTOP
+END
+
+IDD_MENUTOOLBAR DIALOG  0, 0, 342, 17
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CONTROL | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+FONT 16, "MS Shell Dlg"
+BEGIN
+    CONTROL         "CLOSE",IDC_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,324,0,14,17
+    CONTROL         "PREV",IDC_PREV,"Button",BS_OWNERDRAW | WS_TABSTOP,150,0,22,17
+    CONTROL         "NEXT",IDC_NEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,175,0,22,17
+    LTEXT           "FILE",IDC_LBL_FILENAME,4,4,142,9
+    LTEXT           "",IDC_LBL_PAGENUMBER,254,4,31,9
+    EDITTEXT        IDC_EDIT_PAGENUMBER,223,4,31,9,ES_RIGHT | ES_MULTILINE | NOT WS_VISIBLE | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    CONTROL         "ABOUT",IDC_ABOUT,"Button",BS_OWNERDRAW | WS_TABSTOP,310,0,14,17
+END
+
+IDD_MENUTOOLBARSMALL DIALOG  0, 0, 267, 17
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CONTROL | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+FONT 16, "MS Shell Dlg"
+BEGIN
+    CONTROL         "CLOSE",IDC_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,249,0,14,17
+    CONTROL         "PREV",IDC_PREV,"Button",BS_OWNERDRAW | WS_TABSTOP,113,0,22,17
+    CONTROL         "NEXT",IDC_NEXT,"Button",BS_OWNERDRAW | WS_TABSTOP,137,0,22,17
+    LTEXT           "FILE",IDC_LBL_FILENAME,4,4,108,9
+    LTEXT           "",IDC_LBL_PAGENUMBER,198,4,31,9
+    EDITTEXT        IDC_EDIT_PAGENUMBER,167,4,31,9,ES_RIGHT | ES_MULTILINE | NOT WS_VISIBLE | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    CONTROL         "ABOUT",IDC_ABOUT,"Button",BS_OWNERDRAW | WS_TABSTOP,234,0,14,17
+END
+
+IDD_PASSWORD1 DIALOG  0, 0, 149, 79
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,79,58,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,19,58,50,14
+    EDITTEXT        IDC_OWNERPW,43,30,83,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Password",IDC_STATIC,7,33,32,8
+    LTEXT           "The PDF file is password protected. Please enter the owner or user password.",IDC_STATIC,7,7,135,18
+END
+
+IDD_GOTO1 DIALOG  0, 0, 92, 93
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Goto Page..."
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDOK,1,79,90,14
+    LISTBOX         IDC_LIST1,0,0,92,77,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_GOTOPAGE DIALOG  0, 0, 150, 68
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_BORDER
+FONT 12, "Arial Unicode MS"
+BEGIN
+    DEFPUSHBUTTON   "Go To Page",IDOK,21,46,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,79,46,50,14
+    EDITTEXT        IDC_EDITPAGENUM,41,23,69,15,ES_AUTOHSCROLL
+    LTEXT           "Enter page number",IDC_STATIC,45,10,61,8
+END
+
+IDD_ACKNOWLEDGE DIALOG  0, 0, 90, 50
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_BORDER
+FONT 12, "Arial Unicode MS"
+BEGIN
+    PUSHBUTTON      "OK",IDCANCEL,20,33,50,14
+    LTEXT           "Could not load file.",IDC_ACKNOWLEDGEMSG,16,4,62,20
+END
+
+IDD_ABOUTDIALOG DIALOG  0, 0, 229, 146
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_BORDER
+FONT 12, "Arial Unicode MS"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,89,126,50,14
+    CTEXT           "MobileXPdf v1.0.0",IDC_STATIC_2,74,7,80,10,SS_NOPREFIX
+    LTEXT           "(C) 2005-2013 Ciochina Gabriel\nPhone: +40 763 495 457\nEmail: gciochina@gmail.com",IDC_STATIC,4,20,222,26
+    LTEXT           "This software, along with any components it may use, is licensed under GNU-GPL and is provided ""as is"".\nFull source code available at http://sourceforge.net/projects/mobilexpdf",IDC_STATIC,4,50,222,33
+    LTEXT           "This program comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to redistribute it under certain conditions.",IDC_STATIC,3,86,223,33
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,6,2
+ PRODUCTVERSION 0,0,6,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "FileVersion", "0.0.6.2"
+            VALUE "InternalName", "MobileXpdf.exe"
+            VALUE "LegalCopyright", "(c) 2005-2008 Ciochina Gabriel"
+            VALUE "OriginalFilename", "MobileXpdf.exe"
+            VALUE "ProductName", "MobileXpdf"
+            VALUE "ProductVersion", "0.6.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_GOTO, DIALOG
+    BEGIN
+        RIGHTMARGIN, 107
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_WAITDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 68
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_TEXTONLYDIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_FINDTEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_IMAGE_PROPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_MISCPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_BUTTONMAPPINGPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_FILE_OPEN, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_MENUTOOLBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 339
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_MENUTOOLBARSMALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 264
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_PASSWORD1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 142
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_GOTO1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 73
+    END
+
+    IDD_GOTOPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_ACKNOWLEDGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 88
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ABOUTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "MobileXpdf"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MobileXpdf"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILE                "File"
+    IDS_TOOLS               "View"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#include "res\MobileXpdfppc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

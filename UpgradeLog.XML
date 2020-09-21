@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MobileXpdf">
+</Property><Property Name="Solution File" Value="C:\mobileXpdf\mobileXpdf\MobileXpdf.sln">
+</Property><Property Name="Date" Value="30 ianuarie 2008">
+</Property><Property Name="Time" Value="23:10">
+</Property></Properties><Event ErrorLevel="1" Project="t1lib" Source="t1lib\t1lib.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="t1lib" Source="t1lib\t1lib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="t1lib" Source="t1lib\t1lib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="freetype" Source="freetype\builds\win32\visualc\freetype.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="freetype" Source="freetype\builds\win32\visualc\freetype.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="freetype" Source="freetype\builds\win32\visualc\freetype.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Xpdf" Source="Xpdf\Xpdf.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="Xpdf" Source="Xpdf\Xpdf.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="Xpdf" Source="Xpdf\Xpdf.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="MobileXpdf" Source="MobileXpdf\MobileXpdf.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="MobileXpdf" Source="MobileXpdf\MobileXpdf.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="MobileXpdf" Source="MobileXpdf\MobileXpdf.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MobileXpdf.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MobileXpdf.sln" Description="Converted">
+</Event></UpgradeLog>
